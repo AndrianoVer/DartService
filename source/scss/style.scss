@@ -42,6 +42,72 @@ img {
 
 body {
 	margin: 0;
+	background-color: #18e3c2;
+	font-family: 'Raleway', sans-serif;
 }
 
 // Reset End
+
+// Header
+.mainheader {}
+
+.header {
+
+	&__wrap {
+		padding-top: 50px;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.container {
+	max-width: 1400px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {}
+
+.logo__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo__img {
+	margin-right: 10px;
+}
+
+.logo__text span {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.logo__text p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.nav__list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__list li {
+	margin-right: 50px;
+}
+
+.login {
+
+	&__user {}
+}
