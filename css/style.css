@@ -94,3 +94,31 @@ body {
 .nav__list li {
   margin-right: 50px;
 }
+
+.nav__list li a {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav__list li a:hover {
+  color: #000;
+  transition: 0.5s ease-out all;
+}
+
+.login__user {
+  cursor: pointer;
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.login__user:hover {
+  background-color: #fff;
+  color: #0cb8bc;
+  transition: 0.5s ease-out all;
+  transform: scale(1.1);
+}

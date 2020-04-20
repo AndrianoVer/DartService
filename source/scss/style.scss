@@ -48,11 +48,9 @@ body {
 
 // Reset End
 
-// Header
-.mainheader {}
+// Header style
 
 .header {
-
 	&__wrap {
 		padding-top: 50px;
 	}
@@ -71,8 +69,6 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-
-.logo {}
 
 .logo__wrap {
 	display: flex;
@@ -107,7 +103,34 @@ body {
 	margin-right: 50px;
 }
 
-.login {
+.nav__list li a {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 500;
+}
 
-	&__user {}
+.nav__list li a:hover {
+	color: #000;
+	transition: 0.5s ease-out all;
+}
+
+.login {
+	&__user {
+		cursor: pointer;
+		padding: 8px 20px;
+		background-color: transparent;
+		border: 1px solid #fff;
+		color: #fff;
+		font-size: 12px;
+		border-radius: 5px;
+	}
+}
+
+.login {
+	&__user:hover {
+		background-color: #fff;
+		color: #0cb8bc;
+		transition: 0.5s ease-out all;
+		transform: scale(1.1);
+	}
 }
