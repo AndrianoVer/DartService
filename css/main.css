@@ -190,14 +190,42 @@ body {
 }
 
 .right__content-wrap {
+  background-image: url(../../img/photo-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  padding: 115px 225px;
   border: 1px solid black;
   border-radius: 5px;
 }
+.right__content-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
 .right__content-wrap .right__content-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.right__content-wrap .right__content-content p {
-  display: block;
+.right__content-wrap .right__content-content .icon {
+  z-index: 5;
+  cursor: pointer;
+}
+.right__content-wrap .right__content-content .icon-text {
+  font-size: 12px;
+  color: #061e37;
+  z-index: 5;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }

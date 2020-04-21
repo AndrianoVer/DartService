@@ -77,16 +77,46 @@
 }
 
 .right__content-wrap {
+	background-image: url(../../img/photo-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	position: relative;
+	padding: 115px 225px;
 	border: 1px solid black;
 	border-radius: 5px;
 
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.9);
+	}
+
 	& .right__content-content {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 
-		&& .icon-text {
-			display: block;
+		& .icon {
+			z-index: 5;
+			cursor: pointer;
+		}
+
+		& .icon-text {
+			font-size: 12px;
+			color: #061e37;
+			z-index: 5;
+			cursor: pointer;
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
 		}
 	}
 }
