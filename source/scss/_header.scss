@@ -1,25 +1,28 @@
 // Header style
 
-// .jambotron {
-// 	background-image: url(../../img/bg_header.jpg);
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	background-position: center;
-// 	text-align: center;
-// 	position: relative;
-// 	border-radius: 5px;
+.jambotron {
+	background-image: url(../../img/bg_header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	border-radius: 5px;
 
-// 	&:before {
-// 		content: '';
-// 		display: block;
-// 		position: absolute;
-// 		top: 0px;
-// 		left: 0px;
-// 		width: 100%;
-// 		height: 100%;
-// 		background: linear-gradient(to right, #1ae6bf, #17e1c3, #18d1c9, #0fb8ce);
-// 	}
-// }
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(21, 208, 203, 0.9);
+	}
+}
+
+.header__wrap {
+	position: relative;
+}
 
 .header {
 	&__wrap {
@@ -72,6 +75,10 @@
 
 .nav__list li {
 	margin-right: 50px;
+}
+
+.nav__list li:last-child {
+	margin-right: 0;
 }
 
 .nav__list li a {

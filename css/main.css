@@ -45,6 +45,29 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.jambotron {
+  background-image: url(../../img/bg_header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 5px;
+}
+.jambotron:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 208, 203, 0.9);
+}
+
+.header__wrap {
+  position: relative;
+}
+
 .header__wrap {
   padding-top: 50px;
 }
@@ -95,6 +118,10 @@ body {
   margin-right: 50px;
 }
 
+.nav__list li:last-child {
+  margin-right: 0;
+}
+
 .nav__list li a {
   font-size: 15px;
   color: #fff;
@@ -121,6 +148,10 @@ body {
   color: #0cb8bc;
   transition: 0.5s ease-out all;
   transform: scale(1.1);
+}
+
+.section__180 {
+  position: relative;
 }
 
 .section__wrap {

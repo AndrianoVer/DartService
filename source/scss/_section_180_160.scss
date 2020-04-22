@@ -1,12 +1,15 @@
 // Section__180__160
 
-.section__180 {}
+.section__180 {
+	position: relative;
+}
 
 .section__wrap {
 	padding: 180px 0px 160px;
 }
 
-.container {}
+.container {
+}
 
 .section__content {
 	display: flex;
@@ -38,7 +41,7 @@
 		padding: 20px 40px;
 		border-radius: 5px;
 		background-color: #061e37;
-		font-family: 'Roboto', sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-size: 15px;
 		text-transform: uppercase;
 		color: #fff;
@@ -57,7 +60,7 @@
 		padding: 20px 40px;
 		border-radius: 5px;
 		background-color: #fff;
-		font-family: 'Roboto', sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-size: 15px;
 		text-transform: uppercase;
 		color: #061e37;
@@ -88,7 +91,7 @@
 	border-radius: 5px;
 
 	&:before {
-		content: '';
+		content: "";
 		display: block;
 		position: absolute;
 		top: 0px;
@@ -115,7 +118,7 @@
 			z-index: 5;
 			cursor: pointer;
 			text-transform: uppercase;
-			font-family: 'Raleway', sans-serif;
+			font-family: "Raleway", sans-serif;
 			font-weight: 700;
 		}
 	}

@@ -1,12 +1,12 @@
-document.querySelector('.try-free').onmouseenter = () => {
-	document.querySelector('.buy-now').style.background = 'white';
-	console.log('it works-1');
+let btnBuy = document.querySelector('.buy-now');
+let btnFree = document.querySelector('.try-free');
+
+btnFree.onmouseenter = () => {
+	btnBuy.style.background = 'white';
+	btnBuy.style.color = '#061e37';
 }
 
-document.querySelector('.try-free').onmouseleave = () => {
-	document.querySelector('.buy-now').style.background = '#061e37';
-	console.log('it works-2');
+btnFree.onmouseleave = () => {
+	btnBuy.style.background = '#061e37';
+	btnBuy.style.color = '#fff';
 }
-// document.querySelector('.buy-now').onmouseenter = () => {
-// 	document.querySelector('.try-free').style.background = '#061e37';
-// }
