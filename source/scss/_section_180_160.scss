@@ -13,6 +13,8 @@
 	justify-content: space-between;
 }
 
+@media (max-width:767px) {}
+
 .left__content {
 	flex-basis: 50%;
 
@@ -73,7 +75,7 @@
 }
 
 .right__content {
-	flex-basis: 50%;
+	flex-basis: 50%
 }
 
 .right__content-wrap {
@@ -83,8 +85,8 @@
 	background-position: center;
 	text-align: center;
 	position: relative;
-	padding: 115px 225px;
 	border: 1px solid black;
+	padding: 115px 225px;
 	border-radius: 5px;
 
 	&:before {
