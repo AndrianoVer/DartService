@@ -626,6 +626,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  margin-bottom: 100px;
 }
 .getstart button {
   cursor: pointer;
@@ -635,6 +636,7 @@ body {
   color: #fff;
   background-color: #1de9b6;
   text-transform: uppercase;
+  border: 1px solid #1de9b6;
   padding: 20px 25px;
   border-radius: 5px;
   box-shadow: 0px 9px 12px -1px rgba(0, 0, 0, 0.26);
@@ -644,4 +646,43 @@ body {
   color: #1de9b6;
   transition: all 0.3s ease 0s;
   border: 1px solid #1de9b6;
+}
+
+.easy-useful-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.easy-useful-box {
+  flex-basis: 25%;
+  padding: 25px 30px;
+}
+.easy-useful-box .for-text {
+  display: inline-block;
+  text-align: left;
+}
+.easy-useful-box img {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  max-width: 15%;
+}
+.easy-useful-box span, .easy-useful-box p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  display: block;
+}
+.easy-useful-box.box1 {
+  background-color: #80d8ff;
+}
+.easy-useful-box.box2 {
+  background-color: #82b1ff;
+}
+.easy-useful-box.box3 {
+  background-color: #b388ff;
+}
+.easy-useful-box.box4 {
+  background-color: #ea80fc;
 }
