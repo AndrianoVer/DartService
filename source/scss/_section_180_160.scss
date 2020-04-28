@@ -129,7 +129,6 @@
 		width: 100%;
 		height: 100%;
 
-
 		& .icon {
 			z-index: 5;
 			cursor: pointer;
@@ -196,6 +195,10 @@
 		left: 40%;
 		transform: translate(-50%, 0);
 	}
+
+	.right__content-wrap {
+		width: 80%;
+	}
 }
 
 @media (max-width: 992px) {
@@ -240,7 +243,6 @@
 		font-size: 12px;
 		font-weight: 500;
 	}
-
 }
 
 @media (max-width: 476px) {
@@ -262,7 +264,6 @@
 	.left__content p {
 		font-size: 12px;
 	}
-
 }
 
 @media (max-width: 450px) {
@@ -307,7 +308,6 @@
 	.right__content-wrap .right__content-content .icon-text {
 		font-size: 10px;
 	}
-
 }
 
 @media (max-width: 320px) {
@@ -320,5 +320,4 @@
 	.logo__wrap .logo__img {
 		margin-top: 5px;
 	}
-
 }
