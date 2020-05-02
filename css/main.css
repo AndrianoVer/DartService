@@ -822,4 +822,70 @@ body {
     font-size: 12px;
     width: 100%;
   }
+
+  .easy-useful-footer .easy-useful-box:last-child {
+    margin-bottom: 0px;
+  }
+
+  .easy-useful-box {
+    padding: 15px 10px;
+  }
+}
+@media (max-width: 400px) {
+  .section__wrap100 {
+    padding-top: 15px;
+  }
+
+  .easy-useful-header h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .easy-useful-header .text-one {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .easy-useful-header .text-two {
+    font-size: 10px;
+  }
+
+  .easy-useful-item h6 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .easy-useful-item img {
+    margin-bottom: 10px;
+  }
+
+  .easy-useful-item {
+    margin-top: 15px;
+  }
+
+  .easy-useful-box span,
+.easy-useful-box p {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 320px) {
+  .easy-useful-header .text-two {
+    font-size: 9px;
+    width: 90%;
+  }
+
+  .easy-useful-item p {
+    font-size: 10px;
+    width: 140%;
+  }
+
+  .getstart button {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .getstart {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
 }
