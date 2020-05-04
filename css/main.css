@@ -926,7 +926,7 @@ body {
 }
 
 .dropdown-menu-item {
-  width: 50%;
+  width: 60%;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -952,4 +952,29 @@ body {
   color: #061e37;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.dropdowm-menu-item-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px 25px;
+  font-size: 15px;
+  color: #061e37;
+  font-weight: 500;
+  line-height: 1.5;
+  display: none;
+}
+.dropdowm-menu-item-body .for-img {
+  flex-basis: 35%;
+  margin-right: 25px;
+}
+.dropdowm-menu-item-body .for-text {
+  flex-basis: 65%;
+  text-align: left;
+}
+.dropdowm-menu-item-body .for-text p {
+  margin-bottom: 25px;
+}
+.dropdowm-menu-item-body .for-text p:last-child {
+  margin-bottom: 0;
 }

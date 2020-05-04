@@ -39,7 +39,7 @@
 }
 
 .dropdown-menu-item {
-	width: 50%;
+	width: 60%;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -67,4 +67,32 @@
 	color: #061e37;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.dropdowm-menu-item-body {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 25px 25px;
+	font-size: 15px;
+	color: #061e37;
+	font-weight: 500;
+	line-height: 1.5;
+	display: none;
+
+	& .for-img {
+		flex-basis: 35%;
+		margin-right: 25px;
+	}
+
+	& .for-text {
+		flex-basis: 65%;
+		text-align: left;
+		& p {
+			margin-bottom: 25px;
+		}
+
+		& p:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
