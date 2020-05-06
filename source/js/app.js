@@ -27,9 +27,17 @@ window.onload = function () {
 	document.querySelector('.dropdown-menu').addEventListener('click', dropDown);
 
 	function dropDown(event) {
-		if (event.target.className == 'dropdowm-menu-item-header') {
-			console.log(event.target.getAttribute('data-tab'));
+		let eventTarget = event.target.className;
+		if ((eventTarget == 'dropdowm-menu-item-header') || (eventTarget == 'right-side-header')) {
+			let dataTab = event.target.getAttribute('data-tab');
+			let tabBody = document.getElementsByClassName('dropdowm-menu-item-body')
+			for (let i = 0; i < tabBody.length; i++) {
+				if (dataTab == i) {
+					tabBody[i].style.display = 'flex';
+				} else {
+					tabBody[i].style.display = 'none';
+				}
+			}
 		}
 	}
-
 }
