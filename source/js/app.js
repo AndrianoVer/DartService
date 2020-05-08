@@ -41,3 +41,14 @@ window.onload = function () {
 		}
 	}
 }
+
+$(document).ready(function () {
+	// slick carousel
+	$('.multiple-items').slick({
+		// dots: false,
+		vertical: true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		verticalSwiping: true,
+	});
+});
