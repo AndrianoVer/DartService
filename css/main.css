@@ -1134,6 +1134,13 @@ body {
   padding: 20px 25px;
   border-radius: 5px;
 }
+.left-part .getstartbtn:hover {
+  cursor: pointer;
+  color: #061e37;
+  background-color: #fff;
+  border-radius: 5px solid #061e37;
+  transition: 0.5s ease-out all;
+}
 
 .right-part {
   flex-basis: 50%;
@@ -1142,7 +1149,7 @@ body {
 .slider-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .slider-item .for-photo {
   display: flex;
@@ -1151,7 +1158,7 @@ body {
   margin-right: 20px;
 }
 .slider-item .for-photo img {
-  max-width: 150%;
+  max-width: 100%;
 }
 .slider-item .block-for-text {
   flex-basis: 90%;
@@ -1172,13 +1179,40 @@ body {
   display: inline-block;
   color: #78909c;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 12px;
   font-style: italic;
   line-height: 25px;
   text-align: left;
 }
 
+.slick-list {
+  overflow: hidden;
+}
+
 .slick-track {
   display: flex;
   flex-direction: column;
+}
+
+.multiple-items {
+  position: relative;
+}
+
+.multiple-items .slick-arrow {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.multiple-items .slick-arrow.slick-prev {
+  background: url(/img/uploading.svg) 0 0/100% no-repeat;
+  top: -30px;
+}
+
+.multiple-items .slick-arrow.slick-next {
+  background: url(/img/up-arrow.svg) 0 0/100% no-repeat;
+  bottom: 15px;
 }

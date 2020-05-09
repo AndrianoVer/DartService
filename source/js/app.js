@@ -45,10 +45,10 @@ window.onload = function () {
 $(document).ready(function () {
 	// slick carousel
 	$('.multiple-items').slick({
-		// dots: false,
+		// dots: true,
 		vertical: true,
-		slidesToShow: 4,
-		slidesToScroll: 4,
+		slidesToShow: 2,
+		slidesToScroll: 1,
 		verticalSwiping: true,
 	});
 });
