@@ -41,14 +41,25 @@ window.onload = function () {
 		}
 	}
 }
-
+// Slider
 $(document).ready(function () {
 	// slick carousel
 	$('.multiple-items').slick({
-		// dots: true,
 		vertical: true,
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		verticalSwiping: true,
+		autoplay: false,
+		autoplayspeed: 3000,
+		pauseOnfocus: true,
+		pauseOnhover: true,
+		verticalSwiping: true,
+		responsive: [{
+			breakpoint: 440,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}]
 	});
 });

@@ -641,14 +641,14 @@ body {
   background-color: #1de9b6;
   text-transform: uppercase;
   border: 1px solid #1de9b6;
-  padding: 20px 25px;
+  padding: 15px 20px;
   border-radius: 5px;
   box-shadow: 0px 9px 12px -1px rgba(0, 0, 0, 0.26);
 }
 .getstart button:hover {
   background-color: #fff;
   color: #1de9b6;
-  transition: all 0.3s ease 0s;
+  transition: 0.5s ease-out all;
   border: 1px solid #1de9b6;
 }
 
@@ -1131,19 +1131,21 @@ body {
   color: #fff;
   background-color: #061e37;
   text-transform: uppercase;
-  padding: 20px 25px;
+  padding: 15px 20px;
   border-radius: 5px;
+  border: 1px solid #061e37;
 }
 .left-part .getstartbtn:hover {
   cursor: pointer;
   color: #061e37;
   background-color: #fff;
-  border-radius: 5px solid #061e37;
+  border: 1px solid #061e37;
   transition: 0.5s ease-out all;
 }
 
 .right-part {
   flex-basis: 50%;
+  padding: 50px 0px;
 }
 
 .slider-item {
@@ -1215,4 +1217,94 @@ body {
 .multiple-items .slick-arrow.slick-next {
   background: url(/img/up-arrow.svg) 0 0/100% no-repeat;
   bottom: 15px;
+}
+
+@media (max-width: 1120px) {
+  .left-part h2 {
+    font-size: 36px;
+  }
+
+  .slider-item .block-for-text h5 {
+    font-size: 16px;
+  }
+
+  .slider-item .block-for-text p {
+    line-height: 20px;
+  }
+}
+@media (max-width: 1155px) {
+  .left-part h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 890px) {
+  .slider-item .block-for-text p {
+    line-height: 18px;
+  }
+
+  .slider-item .block-for-text {
+    padding: 18px 26px 16px 19px;
+  }
+}
+@media (max-width: 835px) {
+  .left-part h2 {
+    font-size: 30px;
+  }
+
+  .left-part p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 769px) {
+  .slider-40 {
+    flex-direction: column;
+  }
+
+  .oursliderwrap {
+    padding: 0px;
+  }
+
+  .left-part {
+    text-align: center;
+  }
+  .left-part h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .left-part {
+    padding: 18px 0px;
+  }
+  .left-part p {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 440px) {
+  .left-part h2 {
+    font-size: 22px;
+  }
+
+  .left-part p {
+    font-size: 10px;
+  }
+
+  .left-part .getstartbtn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 320px) {
+  .left-part h2 {
+    font-size: 16px;
+  }
+
+  .left-part p {
+    font-size: 8px;
+    line-height: 14px;
+  }
+
+  .right-part {
+    display: none;
+  }
 }

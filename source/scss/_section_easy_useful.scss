@@ -87,7 +87,7 @@
 		background-color: #1de9b6;
 		text-transform: uppercase;
 		border: 1px solid #1de9b6;
-		padding: 20px 25px;
+		padding: 15px 20px;
 		border-radius: 5px;
 		-webkit-box-shadow: 0px 9px 12px -1px rgba(0, 0, 0, 0.26);
 		-moz-box-shadow: 0px 9px 12px -1px rgba(0, 0, 0, 0.26);
@@ -96,7 +96,7 @@
 		&:hover {
 			background-color: #fff;
 			color: #1de9b6;
-			transition: all 0.3s ease 0s;
+			transition: 0.5s ease-out all;
 			border: 1px solid #1de9b6;
 		}
 	}
