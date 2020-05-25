@@ -41,7 +41,7 @@ window.onload = function () {
 		}
 	}
 }
-// Slider
+// Slider-vertical
 $(document).ready(function () {
 	// slick carousel
 	$('.multiple-items').slick({
