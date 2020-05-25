@@ -1310,6 +1310,7 @@ body {
 }
 .our-teamwrap {
   padding: 100px 0px 80px;
+  background-color: #f5f5f5;
 }
 
 .our-teamwrap-header {
@@ -1341,8 +1342,39 @@ body {
   justify-content: space-around;
   margin-bottom: 40px;
 }
+.tabs-items .block-1 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/avatar1.png) 0 0 no-repeat;
+  opacity: 0.2;
+}
+.tabs-items .block-2 {
+  box-shadow: inset 0 0 12px 8px rgba(0, 0, 0, 0.9);
+  width: 160px;
+  height: 160px;
+  background: url(/img/avatar2.png) 0 0 no-repeat;
+  border-radius: 50%;
+}
+.tabs-items .block-2:before {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: transparent;
+  top: -20px;
+  left: 8px;
+  border: 20px solid white;
+}
+.tabs-items .block-3 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/avatar3.png) 0 0 no-repeat;
+  opacity: 0.2;
+}
 
 .tabs__item {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1365,13 +1397,6 @@ body {
 
 .tabs__block .active {
   display: block;
-}
-
-.block-2 {
-  box-shadow: inset 0 0 12px 8px rgba(0, 0, 0, 0.6);
-  width: 160px;
-  height: 160px;
-  background: url(/img/avatar1.png) 0 0 no-repeat;
 }
 
 .tabs__body .tabs__block h6 {
